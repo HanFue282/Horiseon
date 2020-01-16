@@ -79,6 +79,12 @@ p {
     margin-left: 25px;
 }
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,13 +96,7 @@ p {
     background-color: #2589bd;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.search, .online, .social {
+.main-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -105,7 +105,7 @@ p {
     color: #ffffff;
 }
 
-.search img, .online img, .social img {
+.main-content img {
     max-height: 200px;
 }
 
@@ -127,6 +127,6 @@ p {
     text-align: center;
 }
 
-.foot-text {
+.footer-text {
     font-size: 20px;
 }
