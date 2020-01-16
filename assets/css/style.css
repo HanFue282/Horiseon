@@ -60,7 +60,7 @@ p {
     font-size: 16px;
 }
 
-#hero {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -79,7 +79,7 @@ p {
     margin-left: 25px;
 }
 
-#benefits {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -90,13 +90,13 @@ p {
     background-color: #2589bd;
 }
 
-#content {
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content-side1 {
+.search, .online, .social {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -105,16 +105,16 @@ p {
     color: #ffffff;
 }
 
-.content-side1 img {
+.search img, .online img, .social img {
     max-height: 200px;
 }
 
-.content-side2 {
+.side-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.content-side2 img {
+.side-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -127,6 +127,6 @@ p {
     text-align: center;
 }
 
-#footer {
+.foot-text {
     font-size: 20px;
 }
